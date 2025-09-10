@@ -1,41 +1,58 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <!-- Character encoding -->
   <meta charset="utf-8" />
+  <!-- Ensures proper scaling on mobile devices -->
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- Browser tab title -->
   <title>Parser Code Compiler — Nicolas Polanco</title>
+  <!-- Link to external stylesheet -->
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <!-- Page header with site navigation -->
   <header class="site-header">
     <nav class="topnav container" aria-label="Primary">
+      <!-- Brand image in nav linking back to homepage -->
       <a class="brand" href="index.html">      
         <img src="images/profile.png" alt="Nicolas Polanco Logo" class="profile-pic">
       </a>
+      <!-- Navigation menu -->
       <ul>
         <li><a href="index.html">HOME</a></li>
         <li><a href="project-drones.html">DRONES PROJECT</a></li>
+        <!-- Current page marked active -->
         <li><a class="active" href="parser-code-compiler.html">PARSER CODE COMPILER</a></li>
       </ul>
     </nav>
   </header>
 
+  <!-- Main content area -->
   <main class="container content" id="main">
+    <!-- Project section card -->
     <section class="card">
+      <!-- Project title -->
       <h1>Parser Code Compiler (C)</h1>
+      <!-- Project image -->
       <img src="images/parser.png" alt="Parser Pic" class="logo">
+      <!-- Project description -->
       <p>A C-based compiler project featuring lexical analysis, symbol table management, and assembly-like code generation.</p>
+      <!-- Skills/Highlights learned -->
       <h2>Highlights</h2>
       <ul class="list">
         <li>Tokenizer and lexeme table construction</li>
         <li>Scoped symbol table for identifiers</li>
         <li>Assembly-like emission and file I/O</li>
       </ul>
+      <!-- Download link for the project file -->
       <p><a class="btn" href="downloads/parser.c" download>Download parser.c</a></p>
+      <!-- Link back to home page -->
       <p><a class="btn ghost" href="index.html">← Back to Home</a></p>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="container footer">© 2025 • Nicolas Polanco</footer>
 </body>
 </html>
