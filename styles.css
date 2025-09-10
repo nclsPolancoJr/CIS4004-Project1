@@ -116,7 +116,7 @@ a:focus, button:focus{
 .logo {
   display: block;
   max-width: 180px;
-  border-radius: 50%;
+  border-radius: 10%;
   border: 3px solid var(--border);
   margin: 0.5rem auto 1rem; /* centers the image */
   object-fit: cover;
@@ -127,7 +127,7 @@ a:focus, button:focus{
   display: block;
   height: 48px;                 /* keeps it neat in navbar */
   width: 48px;                  /* square size */
-  border-radius: 10%;           /* circular */
+  border-radius: 50%;           /* circular */
   border: 3px solid var(--text); /* blue border */
   object-fit: cover;            /* crops neatly if not square */
 }
