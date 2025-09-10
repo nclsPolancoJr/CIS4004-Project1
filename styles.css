@@ -44,7 +44,8 @@
 -.avatar{ border-radius:50%; border:2px solid var(--accent); background:#0e1220; }
 +.avatar{ border-radius:50%; border:2px solid #fff; background:#0e1220; }
  .title-block h1{ margin:0; font-size:clamp(1.6rem, 2.6vw + 1rem, 2.2rem); }
- .subtitle{ margin:.25rem 0 0; color:var(--muted); }
+-.subtitle{ margin:.25rem 0 0; color:var(--muted); }
++.subtitle{ margin:.25rem 0 0; color:var(--text); }
  .contact-list{ display:flex; gap:1rem; padding:0; margin:.5rem 0 0; list-style:none; flex-wrap:wrap; }
 -.contact-list a{ color: var(--accent); }
 +.contact-list a{ color: var(--text); }
@@ -87,6 +88,4 @@
    .site-header, .primary-nav, .site-footer, .skip-link{ display:none; }
    a{ color:#000; text-decoration:underline; }
  }
- 
-EOF
 )
