@@ -125,8 +125,8 @@ a:focus, button:focus{
 /* Logo/profile pic in nav bar */
 .profile-pic {
   display: block;
-  height: 48px;                 /* keeps it neat in navbar */
-  width: 48px;                  /* square size */
+  height: 55px;                 /* keeps it neat in navbar */
+  width: 55px;                  /* square size */
   border-radius: 50%;           /* circular */
   border: 3px solid var(--text); /* blue border */
   object-fit: cover;            /* crops neatly if not square */
