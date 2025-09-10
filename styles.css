@@ -1,15 +1,17 @@
 :root{
+  /* Theme color variables */
   --bg:#1a1a1a;           /* dark grey background */
-  --panel:#232323;        /* slightly lighter panel */
+  --panel:#232323;        /* slightly lighter panel for cards */
   --border:#ffffff;       /* white outlines */
   --text:#bcdcff;         /* light blue text */
-  --text-strong:#d7e8ff;  /* lighter for emphasis */
-  --text-dim:#94b5e6;
-  --btn-bg:#1a1f2a;
-  --btn-hover:#243146;
-  --focus:#7fb3ff;
+  --text-strong:#d7e8ff;  /* lighter blue for emphasis */
+  --text-dim:#94b5e6;     /* dimmer blue for metadata/subtext */
+  --btn-bg:#1a1f2a;       /* button background */
+  --btn-hover:#243146;    /* button hover state */
+  --focus:#7fb3ff;        /* focus outline color */
 }
 
+/* Reset and global settings */
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{
@@ -22,6 +24,7 @@ body{
   letter-spacing:.2px;
 }
 
+/* Link styling */
 a{color:var(--text); text-decoration:none}
 a:hover{color:var(--text-strong)}
 a:focus, button:focus{
@@ -30,8 +33,10 @@ a:focus, button:focus{
   border-radius:8px;
 }
 
+/* Layout container */
 .container{max-width:980px; margin:0 auto; padding:1rem}
 
+/* Header/navigation bar */
 .site-header{
   border-bottom:2px solid var(--border);
   background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,0));
@@ -39,6 +44,7 @@ a:focus, button:focus{
   backdrop-filter: blur(6px);
 }
 
+/* Navigation bar flex layout */
 .topnav{
   display:flex; align-items:center; justify-content:space-between; gap:1rem;
 }
@@ -56,8 +62,10 @@ a:focus, button:focus{
 }
 .topnav a.active{background:rgba(255,255,255,.06)}
 
+/* Main content wrapper */
 .content{padding-block:1.25rem}
 
+/* Card design for sections */
 .card{
   background:var(--panel);
   border:2px solid var(--border);
@@ -67,9 +75,11 @@ a:focus, button:focus{
   box-shadow:0 12px 24px rgba(0,0,0,.25);
 }
 
+/* Headings and lead text */
 .page-title{margin:.25rem 0 0}
 .lede{color:var(--text-strong); margin:.25rem 0 0}
 
+/* Socials grid layout */
 .socials{
   display:grid; gap:.8rem;
 }
@@ -79,18 +89,22 @@ a:focus, button:focus{
 .social-block h3{margin:.1rem 0 .2rem; color:var(--text-strong)}
 .social-block p{margin:.1rem 0 0}
 
+/* Lists */
 .list{margin:.6rem 0 0 1.2rem}
 .list li{margin:.25rem 0}
 
+/* Job section */
 .job header{display:flex; flex-direction:column; gap:.15rem}
 .job .meta{color:var(--text-dim); font-size:.95rem}
 
+/* Projects grid */
 .projects{display:grid; gap:1rem}
 @media (min-width:720px){
   .projects{grid-template-columns:repeat(2,1fr)}
 }
 .project h3 a{border-bottom:2px solid var(--border); padding-bottom:.2rem}
 
+/* Skills pill-style list */
 .pill-list{
   list-style:none; padding:0; margin:.4rem 0 0; display:flex; flex-wrap:wrap; gap:.5rem;
 }
@@ -99,6 +113,7 @@ a:focus, button:focus{
   background:transparent;
 }
 
+/* Button styling */
 .btn{
   display:inline-block; padding:.6rem .9rem; border:2px solid var(--border);
   border-radius:10px; background:var(--btn-bg); color:var(--text-strong);
@@ -106,28 +121,29 @@ a:focus, button:focus{
 .btn:hover{background:var(--btn-hover)}
 .btn.ghost{background:transparent}
 
+/* Footer */
 .footer{
   border-top:2px solid var(--border);
   margin-top:2rem; padding:1.2rem 0; color:var(--text-dim);
   text-align:center;
 }
 
-  /* Profile picture inside content */
+/* Profile picture inside content sections */
 .logo {
   display: block;
   max-width: 180px;
-  border-radius: 10%;
-  border: 3px solid var(--border);
-  margin: 0.5rem auto 1rem; /* centers the image */
-  object-fit: cover;
+  border-radius: 10%;              /* slightly rounded edges */
+  border: 3px solid var(--border); /* white border */
+  margin: 0.5rem auto 1rem;        /* centers the image */
+  object-fit: cover;               /* ensures good cropping if image ratio is off */
 }
 
-/* Logo/profile pic in nav bar */
+/* Profile pic in nav bar (smaller circle with blue border) */
 .profile-pic {
   display: block;
-  height: 55px;                 /* keeps it neat in navbar */
-  width: 55px;                  /* square size */
-  border-radius: 50%;           /* circular */
-  border: 3px solid var(--text); /* blue border */
-  object-fit: cover;            /* crops neatly if not square */
+  height: 55px;                 /* fixed height for navbar */
+  width: 55px;                  /* fixed width (square) */
+  border-radius: 50%;           /* perfect circle */
+  border: 3px solid var(--text); /* blue border matches theme */
+  object-fit: cover;            /* ensures image scales nicely */
 }
