@@ -75,8 +75,6 @@ CIS4004-Project1/
 
 │ ├── Nicolas_Polanco_Resume.pdf
 
-│ ├── Nicolas_Polanco_Resume_Updated.docx
-
 │ └── Drones.java
 
 └── parser.c
