@@ -77,7 +77,7 @@ CIS4004-Project1/
 
 │ └── Drones.java
 
-└── parser.c
+│ └── parser.c
 
 ---
 
