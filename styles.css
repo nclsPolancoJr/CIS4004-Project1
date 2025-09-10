@@ -110,4 +110,21 @@ a:focus, button:focus{
   border-top:2px solid var(--border);
   margin-top:2rem; padding:1.2rem 0; color:var(--text-dim);
   text-align:center;
+
+  /* Profile picture inside content */
+.profile-pic {
+  display:block;
+  max-width:180px;
+  border-radius:50%;
+  border:3px solid var(--border);
+  margin:0.5rem auto 1rem; /* centers the image */
+}
+
+/* Logo in nav bar */
+.logo {
+  height:40px;
+  width:auto;
+  display:block;
+}
+
 }
