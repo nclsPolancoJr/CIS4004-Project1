@@ -122,10 +122,12 @@ a:focus, button:focus{
   object-fit: cover;
 }
 
-/* Logo in nav bar */
+/* Logo/profile pic in nav bar */
 .logo {
-  height:20px;
-  width:auto;
-  display:block;
-  border-radius: 8px; /*rounded corners*/
+  display: block;
+  height: 48px;                 /* keeps it neat in navbar */
+  width: 48px;                  /* square size */
+  border-radius: 50%;           /* circular */
+  border: 3px solid var(--text); /* blue border */
+  object-fit: cover;            /* crops neatly if not square */
 }
