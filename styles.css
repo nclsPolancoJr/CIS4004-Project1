@@ -127,4 +127,11 @@ a:focus, button:focus{
   display:block;
 }
 
+  .project-pic {
+  display:block;
+  max-width:400px;
+  margin:1rem auto;
+  border:3px solid var(--border);
+  border-radius:12px;
+}
 }
