@@ -1,3 +1,9 @@
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
+diff --git a/project-drones.html b/project-drones.html
+index 2beb93aed9ecc9d686bbaed5d4927915373e52cb..91034c960709b80c8fa63a4322fc7a98e4c5e898 100644
+--- a/project-drones.html
++++ b/project-drones.html
+@@ -1,70 +1,70 @@
  <!doctype html>
  <html lang="en">
  <head>
