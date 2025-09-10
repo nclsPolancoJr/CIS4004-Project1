@@ -127,7 +127,7 @@ a:focus, button:focus{
   display: block;
   height: 48px;                 /* keeps it neat in navbar */
   width: 48px;                  /* square size */
-  border-radius: 50%;           /* circular */
+  border-radius: 10%;           /* circular */
   border: 3px solid var(--text); /* blue border */
   object-fit: cover;            /* crops neatly if not square */
 }
