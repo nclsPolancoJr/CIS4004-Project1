@@ -1,4 +1,4 @@
-# CIS4004 Project 1 – Résumé with Two Project Pages (v2)
+# CIS4004 Project 1 – Resume with Two Project Pages
 
 This version includes:
 - `project-drones.html` — Autonomous Drones project page (gallery + overview + skills).
