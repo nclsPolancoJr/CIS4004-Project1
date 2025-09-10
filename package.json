@@ -1,0 +1,10 @@
++{
++  "name": "cis4004-project1",
++  "version": "1.0.0",
++  "description": "Static website for Nicolas Polanco resume and projects.",
++  "scripts": {
++    "test": "echo \"No tests specified\""
++  },
++  "author": "Nicolas Polanco",
++  "license": "MIT"
++}
