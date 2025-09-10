@@ -54,18 +54,31 @@ The website highlights my **resume**, **education**, **work experience**, and tw
 
 ## 📂 Project Structure
 CIS4004-Project1/
+
 ├── index.html
+
 ├── parser-code-compiler.html
+
 ├── project-drones.html
+
 ├── styles.css
+
 ├── images/
+
 │ ├── profile.png
+
 │ ├── parser.png
+
 │ └── drone.png
-└── downloads/
-├── Nicolas_Polanco_Resume.pdf
-├── Nicolas_Polanco_Resume_Updated.docx
-├── Drones.java
+
+├── downloads/
+
+│ ├── Nicolas_Polanco_Resume.pdf
+
+│ ├── Nicolas_Polanco_Resume_Updated.docx
+
+│ └── Drones.java
+
 └── parser.c
 
 ---
